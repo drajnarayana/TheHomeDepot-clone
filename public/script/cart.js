@@ -156,16 +156,6 @@ let bag = JSON.parse(localStorage.getItem("cart")) || [];
 
         })
 
-        document.getElementById("checkout").addEventListener("click",function(){
-            let bag = JSON.parse(localStorage.getItem("cart")) ||[]
-            if(bag.length==0){
-                alert("Add Items")
-            }
-            else{
-                window.location.href="http://localhost:2345/products/checkout"
-            }
-
-        })
         document.getElementById("paypal").addEventListener("click",function(){
             let bag = JSON.parse(localStorage.getItem("cart")) ||[]
             if(bag.length==0){

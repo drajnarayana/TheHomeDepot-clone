@@ -287,9 +287,7 @@ cursor: pointer;
     /* border:1px solid red */
 }
 
-#sortEl{
-    border: 1px solid tomato;
-}
+
 
 
 .filterOptions{
@@ -301,7 +299,7 @@ cursor: pointer;
     height:50px;
     width:250px;
     margin: auto;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 .pagination{
     display: flex;
@@ -339,8 +337,6 @@ cursor: pointer;
    text-align: center;
    padding-top: 10px;
 }
-.addToCartBtn{
-    background-color:rgb(249,99,2)
-}
+
 
 
